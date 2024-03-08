@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Subscriptions",
+    "name": "subscriptions",
+    "link": "/subscriptions"
+  },
+  {
+    "title": "Users Management",
+    "name": "users",
+    "link": "/users"
+  },
+  {
+    "title": "AWS Credentials",
+    "name": "aws-credentials",
+    "link": "/aws-credentials"
+  },
+  {
+    "title": "Orders Management",
+    "name": "orders",
+    "link": "/orders"
+  },
+  {
+    "title": "Report Management",
+    "name": "report",
+    "link": "/report"
+  },
+  {
+    "title": "Cache Management",
+    "name": "cache",
+    "link": "/cache"
+  },
+  {
+    "title": "Notification Management",
+    "name": "notification",
+    "link": "/notification"
+  },
+  {
+    "title": "Monitoring",
+    "name": "monitoring",
+    "link": "/monitoring"
+  },
+  {
+    "title": "Settings",
+    "name": "settings",
+    "link": "/settings"
+  }
+]
