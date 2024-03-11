@@ -62,12 +62,6 @@
                 onFinishFailed={onFinishFailed}
                 autoComplete="off"
             >
-                <Form.Item<FieldType>
-                    label="Unique ID"
-                    // rules={[{ required: true, message: 'Please input your username!' }]}
-                >
-                    <Input />
-                </Form.Item>
 
                 <Form.Item<FieldType>
                     label="Name"
