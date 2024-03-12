@@ -31,12 +31,12 @@
     const navigate = useNavigate();
 
     useEffect(() => {
-      axios
-        .get('http://100.25.25.75:7000/Subscription')
-        .then((res) => {
-          let data = res.data.splice(0, 50);
-          setSubscriptionsData(data);
-        });
+    //   axios
+    //     .get('http://100.25.25.75:7000/Subscription')
+    //     .then((res) => {
+    //       let data = res.data.splice(0, 50);
+    //       setSubscriptionsData(data);
+    //     });
     }, []);
   
     const tabChange = (event: React.SyntheticEvent, newValue: string) => {
@@ -70,19 +70,7 @@
                 </Form.Item>
 
                 <Form.Item<FieldType>
-                    label="Name"
-                >
-                    <Input />
-                </Form.Item>
-
-                <Form.Item<FieldType>
                     label="Email ID"
-                >
-                    <Input />
-                </Form.Item>
-
-                <Form.Item<FieldType>
-                    label="Note"
                 >
                     <Input />
                 </Form.Item>
@@ -94,7 +82,7 @@
                 </Form.Item>
 
                 <Form.Item<FieldType>
-                    label="Inventory Note"
+                    label="Note"
                 >
                     <Input />
                 </Form.Item>
